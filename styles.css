@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+@media screen and (max-width: 480px) {
+
+    body{
+        height: auto;
+        width: auto;
+        border-radius: 20px;
+        border: 3px solid;
+        padding: 12px 12px;
+        font-family: 'Fredoka', sans-serif;
+    
+    }
+    .name-confirmation{
+        height: auto;
+        width:auto;
+        border-radius: 11px;
+        border: 2px solid;
+        text-align: center;
+       
+    } 
+
+    .name-confirmation p{
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .form{
+        margin: 10px 0;
+        width: auto;
+    }
+
+    #myText{
+        width: 410px;
+    }
+
+    .button{
+       margin-left: 360px;
+       margin-top: 8px;
+    }
+
+    .actual-to-do{
+        height: auto;
+        width:auto;
+        border-radius: 11px;
+        border: 2px solid;   
+    }
+
+    .actual1{
+        margin: 10px 5px;
+        width: auto;
+    }
+
+    #item1-text{
+        width: 300px;
+    }
+}

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) { */
+    * {
+        box-sizing: border-box;
+    }
 
     body{
         height: auto;
@@ -25,18 +28,28 @@
         font-weight: bolder;
     }
 
-    .form{
+    .form {
         margin: 10px 0;
         width: auto;
     }
 
+    .form form {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
     #myText{
-        width: 410px;
+        display: block;
+        height: 30px;
+        padding: 2px 10px;
+        margin: 2px;
     }
 
     .button{
-       margin-left: 360px;
-       margin-top: 8px;
+        width: 100px;
+        justify-self: end;
     }
 
     .actual-to-do{
@@ -54,4 +67,4 @@
     #item1-text{
         width: 300px;
     }
-}
+/* } */
